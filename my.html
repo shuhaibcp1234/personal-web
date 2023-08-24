@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shuhaib cp</title>
+    <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/a/AAcHTtd3RCCqNy0QQ7VU5Sjtr-4tsCfe0t5FPKRoSJnEsfT5ynQS=s288-c-no">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+  body {
+    
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, rgb(43, 14, 41) 3%, rgb(35, 39, 44) 38%, rgb(58, 71, 68) 68%, rgb(88, 15, 15) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    
+    
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+</style>
+<body>
+    <header class="bg-dark bg-gradient" style="position: fixed;width: 100%;z-index: 1;">
+        <div class="row" style="color: bisque;">
+            <div class="col-md-6 col-7 p-3 ps-5">
+                <h2 style="font-family:Stencil Std, fantasy;letter-spacing: 0.5px;">MUHAMMED SHUHAIB CP</h2>
+
+            </div>
+            <div class="col-md-6 col-5 my-auto ">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <i class="fa-solid fa-bars" style="color: bisque;"></i>
+                          </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                        <ul class="navbar-nav ms-auto">
+                          <li class="nav-item">
+                            <a class="nav-link active"  style="color: bisque;" aria-current="page" href="#home">Home</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link" style="color: bisque;" href="#services">services</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" style="color: bisque;" href="#experience">experiences</a>
+                          </li>
+                          
+                          <li class="nav-item">
+                            <a class="nav-link" style="color: bisque;" href="#contact">contact</a>
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+
+        </div>
+
+
+    </header>
+    <section id="home" style="padding-top: 8em;">
+      <div class="container p-4 mt-10">
+        <div class="row align-items-center ">
+          <div class="col-md-4">
+            <img class="img-fluid rounded-circle" src="https://lh3.googleusercontent.com/a/AAcHTtd3RCCqNy0QQ7VU5Sjtr-4tsCfe0t5FPKRoSJnEsfT5ynQS=s288-c-no" alt="">
+
+          </div>
+          <div class="col-md-8 pt-3" style="color: rgb(202, 199, 194);">
+            <h2>software developer, specialising in the web development arena</h2>
+            <p class="fst-italic">“hey i am Proficient in various programming languages and frameworks, with a knack for translating client ideas into digital realities. ”</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="services">
+      <div class="container p-4 ">
+        <h1 class="text-center" style="color: bisque;">services</h1>
+        <div class="row text-center">
+          <div class="col-md-4 col-sm-12" >
+          <div class="card text-center mt-3 p-3 bg-dark bg-gradient" style="color: rgb(190, 181, 166);" >
+            <i class="fa-solid fa-code display-1 text-white"></i>
+            <div class="card-body">
+              <h5 class="card-title">web development</h5>
+              <p class="card-text">need a responsive website??<br> Elevating your Brand through Functional and Stunning Websites</p>
+              
+              
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4 col-sm-12 ">
+            <div class="card text-center p-3 mt-3 bg-dark bg-gradient" style="color: rgb(190, 181, 166);" >
+              <i class="fa-solid fa-terminal display-1" style="color: #fff;"></i>
+              <div class="card-body">
+                <h5 class="card-title">Custom Software Development</h5>
+                <p class="card-text">Designing and implementing an application with your organization’s needs in mind can boost productivity..</p>
+                
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card text-center mt-3 p-3 bg-dark bg-gradient" style="color: rgb(190, 181, 166);" >
+                <i class="fa-solid fa-mobile-screen display-1" style="color: #fff;"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Mobile App Development</h5>
+                  <p class="card-text">Willing to get your own application designed?? Turning Ideas into Digital Reality</p>
+                  
+                  
+                </div>
+              </div>
+              </div>
+        </div>
+       
+      </div>
+    </section>
+    <section id="experience">
+      <div class="container p-3 ">
+        <h1 class="text-center" style="color: bisque;">experiences</h1>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            
+            <div class="card text-center p-3 mt-3 bg-dark bg-gradient" style="color: rgb(190, 181, 166);" >
+              <img src="https://scontent.fomr1-1.fna.fbcdn.net/v/t39.30808-6/302748877_443334944480013_2868407539830051051_n.png?stp=dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=BDwkwTo5Tg0AX9chJIv&_nc_ht=scontent.fomr1-1.fna&oh=00_AfAnRJsP8-hWz76r-2aB8-pD8iJ0eLIkgi9hDHXlzPoUrw&oe=64EA73A4" style="height: 12em;">
+              <div class="card-body">
+                <a href="https://www.facebook.com/neopraxisinnovations/"><h5>Neopraxis innovation</h5></a>
+                
+              
+                <h5 class="card-title">role:front-end developer</h5>
+                <div><p class="card-text">technologies:react js,stencil-cli</p></div>
+                <div><p class="card-text">languages:html,css,javascript,<br>jquery,bootstrap,graph-ql,</p></div>
+                
+                
+                
+              </div>
+            </div>
+          
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="card text-center mt-3 p-3 bg-dark bg-gradient" style="color: rgb(190, 181, 166);" >
+                <img src="https://scontent.fomr1-1.fna.fbcdn.net/v/t39.30808-6/313204696_488536869995926_393437062319313883_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=x9awJYG4wYsAX_mmRQP&_nc_ht=scontent.fomr1-1.fna&oh=00_AfD_bUfxBor8s19iv-I-8fUdunJc-ClBAiqaDISpSnolOw&oe=64EA15BD" style="height: 12em">
+                <div class="card-body">
+                  <a href="https://www.facebook.com/codersbench/"><h5>Codersbench software solutions</h5></a>
+                  <h5 class="card-title">role:back-end dev(jr)</h5>
+                  <p class="card-text" style="padding-bottom: 1.6em;">technologies:php-laravel,mysql<br>languages:php,basics of c and java</p>
+                  
+                </div>
+              </div>
+              </div>
+              <div class="col-md-4 col-sm-12 " style="padding-bottom: 20px;">
+                <div class="card text-center mt-3 p-3 bg-dark bg-gradient "style="color: rgb(190, 181, 166);" >
+                  <img src="https://assets.mspimages.in/gear/wp-content/uploads/2020/08/Jio-Fiber.jpg" alt="" style="height: 12em;">
+                  <div class="card-body">
+                   <a href="https://www.jio.com/fiber/en-in/broadband-plans/kozhikode"> <h5>jiofiber-calicut</h5></a>
+                    <h5 class="card-title">role:associate engineer</h5>
+                    <p class="card-text" style="padding-bottom: 1.6em;"> installing, configuring, maintaining and repairing of network infrastructure</p>
+                    
+                  </div>
+                </div>
+                </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class=" text-center" style="color: bisque;">contact</h2>
+            <form id="submit-form" action="" method="">
+              <div class="form-group mb-3">
+                <label for="usr"style="color: rgb(190, 181, 166);">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" >
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label "style="color: rgb(190, 181, 166);">Email address</label>
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">i'll never share your email with anyone else.</div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="comment" style="color: rgb(190, 181, 166);">message:</label>
+                <textarea class="form-control" name="subject" rows="3" id="comment" placeholder="type your message here"></textarea>
+              </div>
+              <div class="text-center">
+              <button type="submit" style="width: 100%;" class="btn btn-primary text-center">Submit</button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <a href="https://www.instagram.com/_c_p._/" class="fa-brands fa-instagram p-2" style="color: #fff;"></a>
+            <a href="" class="fa-brands fa-linkedin p-2" style="color: #ffffff;"></a>
+            <p class="text-white p-1">@copyright</p>
+
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    <script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"https://script.google.com/macros/s/AKfycbzkKO-dzGl23rGgrX5JCgEry2NtMFZpbfSxB-mRFmqnWl68Ao0L8jsFyMCzWEIs4bsu/exec",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  //window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3ebe7c025c.js" crossorigin="anonymous"></script>
+</body>
+</html>
